@@ -1,0 +1,127 @@
+header {
+    .section{
+        position: relative;
+        
+        .card{
+            height: auto;
+            width: 1000px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+       
+           border-bottom: 110px solid red;
+        
+           border-left: 60px solid red;
+            
+           border-top: 60px solid red;
+           
+           border-right: 60px solid red;
+           &__image{
+            width: 500px;
+            
+           }
+           &__right {
+            width:500px;
+            height: auto;
+            display: flex;
+       
+            
+            justify-content: space-between;
+            &__forma {
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: left;
+                justify-content: space-between;
+                gap: 10px;
+              
+               
+                h1 { width: 200px;
+                    font-family: "DM Serif Display", serif;
+                    font-size: 70px;
+  font-weight: 700;
+  font-style: normal;
+                    text-align: left;
+                    border-bottom:5px solid red ;
+                   
+                    
+                  
+                   
+                }
+                &__input{
+                    input {
+                       
+                       
+                        width: 400px;
+                        height: 30px;
+                        background-color: rgb(210, 213, 217);   
+                        border-left:20px solid rgb(210, 213, 217); 
+                        border-right:20px solid rgb(210, 213, 217); 
+                    }
+                    span {
+                        font-family: "DM Serif Display", serif;
+                        font-size: 20px;
+      font-weight: 400;
+      font-style: normal; 
+      color: rgb(74, 75, 75);
+                    }
+                 
+                }
+                &__remember{
+                    display: flex;
+                    align-items: center;
+                    justify-content: left;
+                    gap: 20px;
+                    p {
+                        font-family: "DM Serif Display", serif;
+                        font-size: 20px;
+      font-weight: 400;
+      font-style: normal; 
+      color: rgb(74, 75, 75);
+                      }
+                }
+                .btn2{
+                    
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 10%;
+                   background-color:  rgb(210, 213, 217);
+                   
+                 
+                   
+                }
+                .btn{
+                    width: 400px;
+                    height: 40px;
+                    
+                    color: #ffffff;
+                    background-color: red;
+                  
+                }
+                &__forgot{
+                    font-family:'Open Sans',  sans-serif;
+                    font-size: 20px;
+  font-weight: 400;
+  font-style: normal; 
+  color: rgb(74, 75, 75);
+                  }
+                      }
+                    
+                }
+                
+            }
+            
+           
+           
+          .freepik{
+            position: absolute;
+            bottom:  50px;
+            left: 600px;
+            color: #ffffff;
+            span{
+                border-bottom: 2px solid #ffffff;
+            }
+          } 
+        
+    }
+}
